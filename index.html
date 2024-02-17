@@ -7,34 +7,226 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="has-background-light is-flex is-flex-direction-column min-vh-100">
-        <!-- Header Section -->
-        <header class="has-background-primary has-text-black p-3 is-fixed-top">
-          <div class="container is-flex is-justify-content-space-between is-align-items-center">
-            <h1 class="title is-4 has-text-weight-bold ps-4">Emma Bang Creutzberg</h1>
-            <nav class="navbar">
-              <a class="navbar-item has-text-black mx-2" href="#about">About Me</a>
-              <a class="navbar-item has-text-black mx-2" href="#projects">Projects</a>
-              <a class="navbar-item has-text-black mx-2" href="#skills">Skills</a>
-              <a class="navbar-item has-text-black mx-2" href="#contact">Contact</a>
-            </nav>
-          </div>
-        </header>
-      </div>
-      
+    <div
+      class="is-flex is-flex-direction-column min-vh-100"
+    >
+      <!-- Header Section -->
+      <header class="bg-header has-text-black">
+        <div
+          class="is-flex is-justify-content-space-between is-align-items-center px-5"
+        >
+          <h1 class="title is-4 has-text-weight-bold ps-4 pt-4">
+            Emma Bang Creutzberg
+          </h1>
+          <nav class="navbar bg-header">
+            <a class="navbar-item has-text-black mx-2" href="#about"
+              >About Me</a
+            >
+            <a class="navbar-item has-text-black mx-2" href="#projects"
+              >Projects</a
+            >
+            <a class="navbar-item has-text-black mx-2" href="#skills">Skills</a>
+            <a class="navbar-item has-text-black mx-2" href="#contact"
+              >Contact</a
+            >
+          </nav>
+        </div>
+      </header>
+    </div>
 
     <!-- About Me Section -->
-    <section id="about"></section>
+    <section id="about" class="pt-5 pb-6 px-5">
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-narrow">
+            <figure class="image">
+              <img src="images/AboutMe.jpg" alt="Emma" class="is-rounded" />
+            </figure>
+          </div>
+          <div class="column">
+            <h2 class="title is-4 has-text-weight-bold">About Me</h2>
+            <p class="p-text">
+              Hello, my name is Emma, and I am 23 years old. I am Danish and
+              have a degree in Computer Science. I am currently pursuing my
+              professional bachelor’s degree in Web Development. I work as a
+              junior developer at NexusAmbition, where I handle various customer
+              tasks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Projects Section -->
-    <section id="projects"></section>
+    <section id="projects" class="pt-6 pb-6 px-5 bg-light">
+      <div class="container">
+        <h2 class="title is-4 pb-4 pt-4 has-text-weight-bold">Projects</h2>
+        <div class="columns is-vcentered">
+          <div class="column is-narrow">
+            <figure class="image-project">
+              <img
+                src="images/project1.png"
+                alt="Project 1 image"
+                class="is-rounded"
+              />
+            </figure>
+          </div>
+          <div class="column">
+            <h3 class="title is-4">Krifa</h3>
+            <p class="p-text pb-4">
+              At Krifa, I have worked on developing a new website. Here, we have
+              used NextJS and TailwindCSS. To provide the user with a good
+              opportunity to easily edit the website, we have set it up with
+              Contentful.
+            </p>
+            <a href="https://krifa.dk/" target="_blank">View Project</a>
+          </div>
+        </div>
+        <div class="py-4">
+          <hr class="bg-hr" />
+        </div>
+        <div class="columns is-vcentered">
+          <div class="column">
+            <h3 class="title is-4">Tena</h3>
+            <p class="p-text pb-4">
+              At Tena, I have been involved in implementing various scripts
+              designed to track and report on the user’s progression in their
+              interactions. An example of this is monitoring how far a user
+              progresses in the playback of a video. These data provide us with
+              valuable insights into user behavior and help us improve the user
+              experience.
+            </p>
+            <a href="https://www.tena.dk/" target="_blank">View Project</a>
+          </div>
+          <div class="column is-narrow">
+            <figure class="image-project">
+              <img
+                src="images/project3.jpg"
+                alt="Project 2 image"
+                class="is-rounded"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Skills Section -->
-    <section id="skills"></section>
+    <section id="skills" class="pt-5 pb-6 px-5">
+      <div class="container">
+        <h2 class="title is-4 pb-5 pt-6 has-text-weight-bold">Skills</h2>
+        <div class="columns is-multiline">
+          <div class="column is-half">
+            <div class="media">
+              <figure class="media-left">
+                <img
+                  src="images/svg/html.svg"
+                  alt="HTML5"
+                  class="image-skills"
+                />
+              </figure>
+              <div class="media-content">
+                <p>HTML</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="media">
+              <figure class="media-left">
+                <img
+                  src="images/svg/javascript.svg"
+                  alt="javascript"
+                  class="image-skills"
+                />
+              </figure>
+              <div class="media-content">
+                <p>Javascript</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="media">
+              <figure class="media-left">
+                <img
+                  src="images/svg/react.svg"
+                  alt="react"
+                  class="image-skills"
+                />
+              </figure>
+              <div class="media-content">
+                <p>React</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="media">
+              <figure class="media-left">
+                <img
+                  src="images/svg/nextJs.svg"
+                  alt="nextJs"
+                  class="image-skills"
+                />
+              </figure>
+              <div class="media-content">
+                <p>Next.js</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="media">
+              <figure class="media-left">
+                <img
+                  src="images/svg/tailwindcss.svg"
+                  alt="TailwindCSS"
+                  class="image-skills"
+                />
+              </figure>
+              <div class="media-content">
+                <p>Tailwind CSS</p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="media">
+              <figure class="media-left">
+                <img
+                  src="images/svg/typescript.svg"
+                  alt="Typescript"
+                  class="image-skills"
+                />
+              </figure>
+              <div class="media-content">
+                <p>Typescript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Contact Section -->
-    <section id="contact"></section>
+    <section id="contact" class="pt-6 pb-6 px-5 bg-light">
+      <div class="container">
+        <h2 class="title is-4 pb-4 pt-5 has-text-weight-bold">Contact</h2>
+        <p class="p-text pb-5">
+          If you are interested in my work or have any questions, feel free to
+          reach out to me at:
+        </p>
+        <p class="p-text pb-5">
+          <strong>Email</strong><br />
+          <a href="mailto:creutzberg1708@outlook.dk"
+            >creutzberg1708@outlook.dk</a
+          >
+        </p>
+
+        <p class="p-text pb-5">
+          <strong>Phone Number</strong><br />
+          <a href="tel:60778856">60778856</a>
+        </p>
+      </div>
+    </section>
   </body>
 </html>

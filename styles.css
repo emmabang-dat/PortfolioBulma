@@ -1,0 +1,36 @@
+.bg-header {
+  background-color: rgba(196, 181, 253) !important;
+}
+
+.p-text {
+  color: rgba(55, 65, 81) !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa;   
+}
+
+.bg-hr {
+    background-color: #e2e8f0;
+    border-width: 1px;
+}
+
+.container {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+}
+
+.image-project {
+  width: 200px;
+  height: 200px;
+}
+
+.image-skills {
+  width: 24px;
+  height: 24px;
+}
